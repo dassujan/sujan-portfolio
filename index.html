@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUJAN PORTFOLIO</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .from-primary {
+            --tw-gradient-from: #1d99ac;
+            --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(34, 211, 238, 0));
+        }
+
+        .to-secondary {
+            --tw-gradient-to: #309e76;
+        }
+
+        .servicesImageHeight {
+            height: 220px;
+        }
+    </style>
+</head>
+
+<body class="antialised relative text-gray-600">
+    <div class="absolute w-full min-h-screen">
+        <div class="absolute z-0 top-0 w-full h-1/2 bg-cover bg-bottom pt-20 px-12"
+            style="background-image: url(https://cdn.arabhardware.net/wp-content/uploads/2020/11/GfinEMFXnT42BFxAcDc2rA.jpg);">
+        </div>
+        <div
+            class="absolute z-20 bottom-10 right-0 left-0 inline-flex space-x-20 justify-center font-bold uppercase tracking-wide text-gray-600">
+            <a href="#services" class="text-cyan-600">Services</a>
+            <a href="#project" class="text-cyan-600">projects</a>
+            <a href="#contact" class="text-cyan-600">Contact</a>
+        </div>
+    </div>
+    <div class="relative z-10 flex min-h-screen h-auto justify-center items-center">
+        <div class="relative max-w-4xl">
+            <div
+                class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg">
+            </div>
+            <div class="relative z-20 bg-white md:flex justify-between p-12 shadow-lg rounded-lg w-full max-w-4xl">
+                <div class="sm:flex flex-col justify-between space-y-6 py-6 md:pr-10">
+                    <div class="">
+                        <h2 class="text-lg">Hello, I am</h2>
+                        <h1 class="pt-1 text-5xl font-bold text-gray-800">Sujan Das</h1>
+                    </div>
+                    <p class="text-xl leading-relaxed">Welcome to My Portfolio Website. Thank you for landing here.
+                        If you wanna explore this website you will get to know more about me, What I have done in the
+                        past,
+                        What I'm currently doing and my future plans. If you wanna hire or contact with me for any
+                        reason, I've also added a contact form in the contact part given below.</p>
+                </div>
+                <img src="img/sujan.png" class="w-80 rounded-full flex-shrink-0 border-6 border-white shadow-md "
+                    alt="">
+            </div>
+        </div>
+    </div>
+    <section id="services" class="bg-gray-50 pt-20 pb-28 px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center">
+                <h1 class="text-6xl text-gray-800">My Services</h1>
+                <p class="pt-2 text-xl">Here's What I offer.</p>
+            </div>
+            <div class="mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+
+                <div class="relative">
+                    <div
+                        class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg">
+                    </div>
+                    <div class="relative z-20 bg-white h-full rounded-md shadow-md">
+                        <img src="img/standard-blog-icon-1024x563.png"
+                            class="rounded-t-md bg-blue-200 servicesImageHeight" alt="">
+                        <div class="px-10 pb-6">
+                            <h2 class="pt-3 font-bold text-2xl text-gray-800">BLOGGING</h2>
+                            <p class="pt-3">Writing blog and content in various fields.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div
+                        class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg">
+                    </div>
+                    <div class="relative z-20 bg-white h-full rounded-md shadow-md">
+                        <img src="img/coding.jpg" class="rounded-t-md bg-blue-200 servicesImageHeight" alt="">
+                        <div class="px-10 pb-6">
+                            <h2 class="pt-3 font-bold text-2xl text-gray-800">PROGRAMMING LANGUAGE</h2>
+                            <p class="pt-3">Building & Exploring C/C++, Java, Python based Programming Language
+                                projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative">
+                    <div
+                        class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-lg">
+                    </div>
+                    <div class="relative z-20 bg-white h-full rounded-md shadow-md">
+                        <img src="img/web-app-illustration-1.png" class="rounded-t-md bg-blue-200 servicesImageHeight" alt="">
+                        <div class="px-10 pb-6">
+                            <h2 class="pt-3 font-bold text-2xl text-gray-800">WEB DESIGN & DEVELOPMENT</h2>
+                            <p class="pt-3">Designing and Developing front end & backend projects using HTML5, CSS3,
+                                Vanilla JavaScript, Node js, React js, PHP, MySQL.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="project" class="py-20 px-8">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center">
+                <h1 class="text-6xl font-bold text-gray-700">Projects</h1>
+            </div>
+            <div class="grid mt-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+                <div class="bg-white rounded-md shadow-md">
+                    <img class="object-cover w-full h-80 rounded-t-md" src="img/pythonprojects.png" alt="">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800">Python Mini Projects</h3>
+                        <p class="pt-3">Here, I am creating 10+ Python projects in various fields. Drop a star on this
+                            repository if you find useful!</p>
+                        <a href="https://github.com/dassujan/Python-Mini-Projects"
+                            class="inline-block mt-4 px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-md shadow-md text-white font-bold text-sm">View
+                            More</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-md shadow-md">
+                    <img class="object-cover w-full h-80 rounded-t-md" src="img/Music-Player-App.png" alt="">
+                    <div class="p-8">
+                        <h3 class="text-2xl font-bold text-gray-800">Music Player App</h3>
+                        <p class="pt-3">Building a simple responsive iOS Music Player App using HTML5, CSS3 & Vanilla
+                            JavaScript. I have also added Play, Pause, Next and Previous Buttons.</p>
+                        <a href="https://dassujan.github.io/Music-Player-App"
+                            class="inline-block mt-4 px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-md shadow-md text-white font-bold text-sm">View
+                            More</a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-md shadow-md">
+                    <img class="object-cover w-full h-80 rounded-t-md" src="img/textutil.png" alt="">
+                    <div class="p-4">
+                        <h3 class="text-2xl font-bold text-gray-800">TextUtils React App</h3>
+                        <p class="pt-3">TextUtils is a word counter and a character counting utility which can be used
+                            to manipulate your text in the way you want. You can remove extra spaces, copy the
+                            manipulated text as well as converting text to Uppercase & Lowercase.</p>
+                        <a href="https://dassujan.github.io/TextUtils-React-App"
+                            class="inline-block mt-4 px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-md shadow-md text-white font-bold text-sm">View
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="pt-20 pb-36 px-8 bg-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center">
+                <h1 class="text-6xl font-bold text-gray-700">Contact</h1>
+                <p class="pt-2 text-xl">Get in touch with me.</p>
+            </div>
+        </div>
+        <div class="mt-16 relative max-w-4xl mx-auto">
+            <div
+                class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-6 sm:shew-y-0 sm:-rotate-6 sm:rounded-lg">
+            </div>
+            <div class="relative z-20 bg-white rounded-md shadow-md p-12">
+                <form action="mailto:dassujan.005@gmail.com" method="post" enctype="text/plain">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                        <input type="text" placeholder="Name" required
+                            class="border border-gray-200 outline-none px-4 py-2 rounded-md hover:border-gray-400 focus:border-gray-600">
+                        <input type="email" placeholder="E-mail" required
+                            class="border border-gray-200 outline-none px-4 py-2 rounded-md hover:border-gray-400 focus:border-gray-600">
+                        <input type="text" placeholder="Subject" required
+                            class="border border-gray-200 outline-none px-4 py-2 rounded-md hover:border-gray-400 focus:border-gray-600 md:col-span-2">
+                        <textarea
+                            class="border border-gray-200 outline-none px-4 py-2 rounded-md hover:border-gray-400 focus:border-gray-600 md:col-span-2"
+                            rows="5" placeholder="message" required></textarea>
+                    </div>
+                    <button
+                        class="inline-block w-auto mt-4 px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-md shadow-md text-white font-bold  text-sm">Send
+                        Message</button>
+            </div>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
